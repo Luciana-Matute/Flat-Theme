@@ -13,3 +13,36 @@
 .clearfix:after {
   clear: both;
 }
+/* navegador*/
+
+ul li:hover{background-color:#2C3E50;}
+
+nav .container{padding: 1% 6%;}
+
+.navbar-default {
+background-color: #34495E;
+border-color: #e7e7e7;
+}
+nav a{
+font-weight: 400;
+font-family: 'Roboto';
+}
+
+.navbar-default .navbar-nav > li > .active {color: #18bc9e;}
+
+.navbar-default .navbar-nav > li > .active:hover{color: #fff;}
+
+.navbar-default .navbar-nav > li > a:hover{color: #fff;}
+
+.navbar-default .navbar-nav>li>a {color:white;}
+
+/*about*/
+.fondo-verde{
+	background-color: #2ECC71;
+	color: white;
+	padding-top: 9%;
+	padding-left: 14%;
+  padding-bottom: 4%;
+}
+
+
