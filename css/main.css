@@ -13,6 +13,7 @@
 .clearfix:after {
   clear: both;
 }
+
 /* navegador*/
 
 ul li:hover{background-color:#2C3E50;}
@@ -37,12 +38,9 @@ font-family: 'Roboto';
 .navbar-default .navbar-nav>li>a {color:white;}
 
 /*about*/
-.fondo-verde{
-	background-color: #2ECC71;
-	color: white;
-	padding-top: 9%;
-	padding-left: 14%;
-  padding-bottom: 4%;
+.emerald {
+  background-color: #2ecc71;
+  padding-top: 13%;
 }
 
-
+.Home a{padding-top: 9%;}
