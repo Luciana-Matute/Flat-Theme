@@ -15,6 +15,8 @@
 }
 /*utilitis*/
 .text-white{color: white}
+.no-margin {margin: 0 !important;}
+.mt-4{margin-top: 4%;}
 
 /* navegador*/
 
@@ -42,8 +44,9 @@ font-family: 'Roboto';
 /*about*/
 .fondo-verde {
   background-color: #2ecc71;
-  padding-top: 7%;
+  padding-top: 10%;
   padding-left: 10%;
+  padding-bottom: 5%;
 }
 
 .home{
@@ -52,5 +55,16 @@ font-family: 'Roboto';
 }
 
 @media (max-width: 767px){
-	
+	.fondo-verde{
+    padding-top: 16%;
+    padding-left: 3%;
+    padding-bottom: 10%;
+  }
+  .home{text-align: right;}
+}
+
+/*barras de progreso*/
+.progress {
+  height: 27px;
+  margin-bottom: 13px;
 }
