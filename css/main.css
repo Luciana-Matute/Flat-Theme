@@ -57,8 +57,9 @@ body > section {
 /* navegador*/
 
 ul li:hover{
-background-color:#2C3E50;} 
+background-color:#2C3E50;
 
+} 
 nav .container{
 padding: 1% 6%;
 }
@@ -132,16 +133,24 @@ font-family: 'Roboto';
 /*about*/
 .fondo-verde {
   background-color: #2ecc71;
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-bottom: 5%;
 }
 
 .home{
   padding-top: 5%;
   padding-left: 15%;
-  padding-right: 9%;
 }
 
-.home{text-align: right;}
-
+@media (max-width: 767px){
+  .fondo-verde{
+    padding-top: 16%;
+    padding-left: 3%;
+    padding-bottom: 10%;
+  }
+  .home{text-align: right;}
+}
 /*fondo de section*/
 .fondo{background-color: #F5F5F5}
 
@@ -167,41 +176,37 @@ font-family: 'Roboto';
 /*about*/
 .fondo-verde {
   background-color: #2ecc71;
-}
-.texto1{
-  padding-left: 7%;
-  font-size: 12px;
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-bottom: 5%;
 }
 
+.home{
+  padding-top: 5%;
+  padding-left: 15%;
+}
+
+@media (max-width: 767px){
+  .fondo-verde{
+    padding-top: 16%;
+    padding-left: 3%;
+    padding-bottom: 10%;
+  }
+  .home{text-align: right;}
+}
 /*fondo de section*/
 .fondo{background-color: #F5F5F5}
+
 /*barras de progreso*/
 .progress {
   height: 27px;
   margin-bottom: 13px;
   background-color: white;
 }
+
 /*imagenes*/
 .chica {
   width: 80%;
   border-radius: 50%;
   border: 5px solid white;
-}
-/*texto de abajo de la chica*/
-.mett h6{color: #999}
-/*Redes*/
-.btn-social.btn-facebook {background: #4f7dd4;}
-.btn-social.btn-google-plus {background: #dc422b;}
-.btn-social.btn-twitter {background: #5bceff;}
-.btn-social.btn-linkedin {background: #21a6d8;}
-.btn-social {
-    border: 0;
-    color: #fff;
-    border-radius: 100%;
-    display: inline-block;
-    width: 36px;
-    height: 36px;
-    line-height: 36px;
-    text-align: center;
-    padding: 0;
 }
