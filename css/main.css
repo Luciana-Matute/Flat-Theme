@@ -62,9 +62,19 @@ font-family: 'Roboto';
   }
   .home{text-align: right;}
 }
+/*fondo de section*/
+.fondo{background-color: #F5F5F5}
 
 /*barras de progreso*/
 .progress {
   height: 27px;
   margin-bottom: 13px;
+  background-color: white;
+}
+
+/*imagenes*/
+.chica {
+  width: 80%;
+  border-radius: 50%;
+  border: 5px solid white;
 }
