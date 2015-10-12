@@ -137,6 +137,7 @@ font-family: 'Roboto';
 .home{
   padding-top: 5%;
   padding-left: 15%;
+  padding-right: 9%;
 }
 
 .home{text-align: right;}
@@ -167,6 +168,11 @@ font-family: 'Roboto';
 .fondo-verde {
   background-color: #2ecc71;
 }
+.texto1{
+  padding-left: 7%;
+  font-size: 12px;
+}
+
 /*fondo de section*/
 .fondo{background-color: #F5F5F5}
 /*barras de progreso*/
