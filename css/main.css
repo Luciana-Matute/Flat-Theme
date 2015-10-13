@@ -240,6 +240,40 @@ section blockquote small {
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.8);
 }
-#services blockquote small{color:#999;}
+#services blockquote small{
+  color:#999;
+}
 
-/*Blog*/
+/*portfolio*/
+.box-white{
+  background-color: white;
+  padding: 4%;
+  -webkit-box-shadow: 5px 5px 10px 5px #756F75;
+box-shadow: 5px 5px 10px 5px #756F75;
+}
+
+.box-white img{
+  width: 100%;
+
+}
+.box-white h5{
+  color: #34495E;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+
+}
+.btn-info {
+  color: #fff;
+  background-color: #fff;
+  border-color: #fff;
+  padding: 0;
+}
+div .modal-header img{
+width: 100%;
+}
+div .modal-header{
+  padding: 4%;
+}
+button.close {
+  padding-bottom: 2%;
+  }
