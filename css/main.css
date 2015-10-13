@@ -273,3 +273,5 @@ ul.pagination > li.active > a, ul.pagination > li:hover > a {
   background-color: #34495e;
   color: #fff;
 }
+
+.arrow >  li a{color: black;}
