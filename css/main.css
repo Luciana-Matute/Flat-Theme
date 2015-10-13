@@ -275,3 +275,8 @@ ul.pagination > li.active > a, ul.pagination > li:hover > a {
 }
 
 .arrow >  li a{color: black;}
+
+.arrow li:hover {background-color: transparent;}
+
+.arrow >li a:hover{color: pink;}
+
