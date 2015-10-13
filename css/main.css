@@ -240,6 +240,6 @@ section blockquote small {
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.8);
 }
-#services blockquote small{
-  color:#999;
-}
+#services blockquote small{color:#999;}
+
+/*Blog*/
