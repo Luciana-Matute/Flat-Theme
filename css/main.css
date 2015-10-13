@@ -249,7 +249,7 @@ section blockquote small {
   background-color: white;
   padding: 4%;
   -webkit-box-shadow: 5px 5px 10px 5px #756F75;
-box-shadow: 5px 5px 10px 5px #756F75;
+  box-shadow: 5px 5px 10px 5px #756F75;
 }
 
 .box-white img{
@@ -312,4 +312,8 @@ ul.pagination > li.active > a, ul.pagination > li:hover > a {
 }
 
 .arrow >  li a{color: black;}
->>>>>>> 0990eef3dc88ea61e4ccb92dfc98b3b0e54f3aab
+
+/*contact*/
+textarea #message .form-control{
+    padding-bottom: 2%;
+}
