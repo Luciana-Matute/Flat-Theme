@@ -249,7 +249,7 @@ section blockquote small {
   background-color: white;
   padding: 4%;
   -webkit-box-shadow: 5px 5px 10px 5px #756F75;
-box-shadow: 5px 5px 10px 5px #756F75;
+  box-shadow: 5px 5px 10px 5px #756F75;
 }
 
 .box-white img{width: 100%;}
@@ -305,6 +305,7 @@ ul.pagination > li.active > a, ul.pagination > li:hover > a {
 
 .arrow >  li a{color: black;}
 
+<<<<<<< HEAD
 .arrow li:hover {background-color: transparent;}
 
 .arrow >li a:hover{color: pink;}
@@ -317,3 +318,9 @@ ul.pagination > li.active > a, ul.pagination > li:hover > a {
   padding-bottom: 15px;
 }
 .avatar3{padding-left: 9%;}
+=======
+/*contact*/
+textarea #message .form-control{
+    padding-bottom: 2%;
+}
+>>>>>>> 2637be5e990507a025ae97ff33b8154b6e570d5a
